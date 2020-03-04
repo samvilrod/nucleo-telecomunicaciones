@@ -1,0 +1,153 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+/* var text-decoration  */
+/*--
+	Common Css
+--*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 300;
+}
+p {
+  font-size: 15px;
+  line-height: 28px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a,
+a:active,
+a:focus,
+a:active {
+  text-decoration: none !important;
+}
+.section-title {
+  margin-bottom: 70px;
+}
+.section-title h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 600;
+}
+.section-title p {
+  font-family: 'Volkhov', serif;
+  font-style: italic;
+  color: #666;
+}
+@import "header";
+/*---------------------------------------------
+					Index Start 
+-----------------------------------------------*/
+/*--
+	Slider Start 
+--*/
+@import "slider";
+/*--
+	wrapper Start 
+--*/
+@import "intro";
+/*--
+	service Start 
+--*/
+@import "service";
+/*--
+	call-to-action Start 
+--*/
+@import "call-to-action";
+/*--
+	Feature Start 
+--*/
+@import "feature";
+/*--
+	content Start 
+--*/
+@import "testimonial";
+/*--
+	features Start 
+--*/
+#clients-logo-section {
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+#clients-logo-section .clients-logo-img {
+  padding: 0px 50px;
+}
+/*---------------------------------------------
+					Work Start 
+-----------------------------------------------*/
+/*--
+	Slider-work Start 
+--*/
+@import "global-header";
+/*--
+	portfolio-work Start 
+--*/
+@import "portafolio-work";
+/*--
+	wrapper-work Start 
+--*/
+@import "wrapper-work";
+/*--
+	features-work Start 
+--*/
+#features-work {
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+#features-work .block ul li {
+  width: 19%;
+  text-align: center;
+  display: inline-block;
+  padding: 40px 0px;
+}
+/*---------------------------------------------
+					Work Close 
+-----------------------------------------------*/
+/*=============================================*/
+/*---------------------------------------------
+					 Contact Start 
+-----------------------------------------------*/
+@import "slider-contact";
+@import "contact-form";
+/*--
+	wrapper-contact Start 
+--*/
+@import "wrapper-contact";
+/*--
+	features-contact Start 
+--*/
+#features-contact {
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+#features-contact .block ul li {
+  width: 19%;
+  text-align: center;
+  display: inline-block;
+  padding: 40px 0px;
+}
+/*---------------------------------------------
+					Contact Close 
+-----------------------------------------------*/
+
+@import "heading";
+@import "footer"; 
