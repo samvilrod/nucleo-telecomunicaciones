@@ -6,8 +6,8 @@
     position: relative;
     text-align: center;
     color: #fff;
-  
-  :before {
+}
+#call-to-action:before {
     content: "";
     position: absolute;
     left: 0;
@@ -19,17 +19,17 @@
     background: #1d192c;
     opacity: 0.8;
   }
-   h2 {
+  #call-to-action h2 {
     padding-bottom: 20px;
     line-height: 33px;
     margin: 0;
     font-size: 30px;
   }
-   p {
+  #call-to-action p {
     font-size: 14px;
     line-height: 1.6;
   }
-   .btn-call-to-action {
+  #call-to-action .btn-call-to-action {
     padding: 15px 35px;
     border: none;
     background-color: #fff;
@@ -37,4 +37,3 @@
     color: #333333;
     margin-top: 30px;
   }
-}

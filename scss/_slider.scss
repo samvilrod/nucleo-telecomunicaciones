@@ -5,8 +5,8 @@
     background-position: 10% 10%;
     padding: 200px 100px 280px 0;
     position: relative;
-  
-  :before {
+}
+    #slider:before {
     content: "";
     position: absolute;
     left: 0;
@@ -18,10 +18,10 @@
     background: linear-gradient(to left, #8b86a3, rgb(121, 140, 153));
     opacity: 0.8;
   }
-   .block {
+   #slider.block {
     color: #E3E3E4;
   }
-   .block h1 {
+   #slider.block h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 45px;
@@ -29,11 +29,10 @@
     letter-spacing: 10px;
     padding-bottom: 45px;
   }
-   .block p {
+   #slider.block p {
     font-size: 23px;
     line-height: 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 3px;
   }
-}
